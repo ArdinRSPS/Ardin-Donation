@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ardin PS - PKing / PvM</title>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+  <div class="background">
+    <div class="overlay">
+      <h1>ARDIN</h1>
+      <h2>PKING / PVM</h2>
+      <div class="buttons">
+        <a href="https://discord.gg/8t7VKkEg" class="btn discord">Join Discord</a>
+        <div class="donate-section">
+          <h3>Donate Bonds (via PayPal)</h3>
+          <form action="https://www.paypal.com/donate" method="post" target="_blank">
+            <input type="hidden" name="business" value="Jim.Cooper6910@Gmail.com"/>
+            <input type="hidden" name="currency_code" value="USD"/>
+            <select name="amount">
+              <option value="9.00">$10 Bond - $9</option>
+              <option value="20.00">$25 Bond - $20</option>
+              <option value="40.00">$45 Bond - $40</option>
+              <option value="45.00">$50 Bond - $45</option>
+              <option value="90.00">$100 Bond - $90</option>
+            </select>
+            <input type="submit" value="Donate with PayPal" class="btn donate"/>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
